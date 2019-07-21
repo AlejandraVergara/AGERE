@@ -1,0 +1,59 @@
+.cuadro-texto-1 {
+    background-color: $white;
+}
+
+.cafe-agere {
+    &:h1 {
+        font-size: $xxx-large;
+    }
+}
+
+.cuadro-amarillo {
+    background-color: $coral;
+    height: 100px;
+}
+
+.cuadro-flame {
+    background-color: $flame;
+    color: $white;
+    left: -30px;
+    top: -20px;
+    width: 100%;
+    height: 100px;
+}
+
+.mapa {
+    height: 150px;
+    width: 90%;
+    top: 20px; 
+    left: -30px; 
+}
+
+.cafe {
+    height: 120px;
+    width: 70px;
+    top: 0px; 
+    left: -50px; 
+}
+
+.cuadro-azul {
+    background-color: $blue-de-france;
+    width: 100%;
+    height: 180px;
+} 
+
+
+
+.bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.cuadro-foto-2 {
+    background-image: url('../../assets/images/img-2.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: left;
+    height: 180px;
+}
